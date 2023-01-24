@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    background-image: url(https://media.giphy.com/media/9mYrU9DfXznuWKYsLr/giphy-downsized-large.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#eight-ball-container {
+    background-color: black;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    box-shadow: 0px 0px 12px black;
+}
+
+#eight-ball-viewport {
+    background-color: rgb(178, 124, 229);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bakbak One', cursive;
+    font-size: 45px;
+}
+
+.answer-span {
+    color: rgb(236, 215, 255);
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@keyframes fade {
+    from {color: rgb(178, 124, 229);}
+    to {color: rgb(236, 215, 255);}
+}
+
+#user-input {
+    font-family: 'Bakbak One', cursive;
+    font-size: 25px;
+    display: block;
+    width: 670px;
+    line-height: 30px;
+    padding: 12px 25px;
+    margin: 35px auto;
+    border-radius: 20px;
+    border: 2px solid rgb(150, 150, 150);
+    box-shadow: 0px 0px 12px black;
+}
+
+#user-input:focus {
+    outline: none;
+}
+
+#consult-btn {
+    font-family: 'Bakbak One', cursive;
+    font-size: 25px;
+    color: rgb(131, 37, 218);
+    background-color: rgb(204, 149, 255);
+    border: 5px solid rgb(131, 37, 218);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: block;
+    margin: 0px auto;
+    box-shadow: 0px 0px 12px black;
+}
+
+#consult-btn:hover {
+    color: rgb(204, 149, 255);
+    background-color: rgb(131, 37, 218);
+}
